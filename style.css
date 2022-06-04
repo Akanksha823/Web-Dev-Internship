@@ -1,0 +1,154 @@
+
+body{
+    margin:0;
+    padding:0;
+    font-family:'Calibri', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.wrapper{
+    width:100%;
+    table-layout:fixed;
+    /* background-color:antiquewhite; */
+    padding-bottom:40px;
+}
+
+.webkit{
+    max-width:600px;
+    background-color:rgb(248, 246, 246);
+    color:rgb(12, 12, 12);
+}
+.outer{
+    Margin:0 auto;
+    width:100%;
+    max-width:600px;
+    border-spacing:0;
+    /* font-family:sans-serif; */
+    color:#797777;
+
+}
+.three-columns{
+    text-align:center;
+    font-size:0;
+    line-height:0;
+    padding-top:40px;
+    padding-bottom:30px;
+
+}
+.three-columns.column{
+    width:100%;
+    max-width:200px;
+    display:inline-block;
+    vertical-align:top;
+    display:flex;
+    flex-direction:row;
+
+}
+.padding{
+    padding:15px;
+    display:flex;
+    flex-direction:row;
+
+}
+.con{
+ font-size:15px;
+ line-height:20px;
+ display:flex;
+ flex-direction:row;
+ text-align:justify;
+ 
+}
+
+.con p{
+    color: black;
+    /* font-family:'Nunito Sans' ; */
+}
+/* a{
+    text-decoration: none;
+    color:yellow;
+    font-size:16px;
+} */
+.column1{
+    display:flex;
+    justify-content:center;
+    
+}
+.column1 a{
+    padding:0.2em;
+}
+
+.btn{
+    background-color: rgb(207, 7, 7);
+    border:none;
+    height:3em;
+    width:9em;
+    border-radius:0.3em;
+    cursor:pointer;
+    color:white;
+    font-weight:bold;
+}
+.link{
+    color: grey;
+    text-align:center;
+    justify-content:center;
+    margin-top:3em;
+}
+.logo{
+    display: inline-block;
+    width: 1inline-0em;
+    height: 10em;
+}
+.logo{
+    height: 2em;
+    width: 2em;
+}
+.logo img{
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+    border-radius: 13px;
+}
+.logo-row{
+    height: 5em;
+    width: 14em;
+}
+
+.quick_links{
+    height: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick_links a{
+    color: #959393;
+    font-weight: 200;
+    font-size: 12px;
+    margin-left: 10px;
+
+}
+.links p {
+    color:rgb(255, 0, 0);
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    margin-top:-2em;
+    font-size: 1.1em;
+    /* font-family:'Nunito Sans' ; */
+}
+.links a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    /* font-family:'Nunito Sans' ; */
+}
+.enquiry a{
+    color:#ff0000;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.5em;
+    
+}
+.enquiry p {
+    margin-top:0.2em;
+    font-size:5px;
+}
